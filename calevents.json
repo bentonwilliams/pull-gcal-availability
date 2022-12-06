@@ -1,0 +1,522 @@
+[
+    {
+        "kind": "calendar#event",
+        "etag": "\"3287059313158000\"",
+        "id": "g6ck7mt62jpfubi744agv3nij9_20221203T080000Z",
+        "status": "confirmed",
+        "htmlLink": "https://www.google.com/calendar/event?eid=ZzZjazdtdDYyanBmdWJpNzQ0YWd2M25pajlfMjAyMjEyMDNUMDgwMDAwWiBiZW50b24ud2lsbGlhbXNAbQ",
+        "created": "2016-10-02T06:56:14.000Z",
+        "updated": "2022-01-30T08:00:56.579Z",
+        "summary": "pay property tax - due by 12/10 or 4/10",
+        "description": "&nbsp;go to <a href=\"http://www.sanmateotaxcollector.org\">www.sanmateotaxcollector.org</a><br><br><br>either due 12/10 or 4/10",
+        "creator": {
+            "email": "bwilliams@slack-corp.com",
+            "displayName": "Benton Williams"
+        },
+        "organizer": {
+            "email": "benton.williams@gmail.com",
+            "displayName": "Benton Williams",
+            "self": true
+        },
+        "start": {
+            "dateTime": "2022-12-03T00:00:00-08:00",
+            "timeZone": "America/Los_Angeles"
+        },
+        "end": {
+            "dateTime": "2022-12-03T00:30:00-08:00",
+            "timeZone": "America/Los_Angeles"
+        },
+        "recurringEventId": "g6ck7mt62jpfubi744agv3nij9",
+        "originalStartTime": {
+            "dateTime": "2022-12-03T00:00:00-08:00",
+            "timeZone": "America/Los_Angeles"
+        },
+        "iCalUID": "g6ck7mt62jpfubi744agv3nij9@google.com",
+        "sequence": 9,
+        "reminders": {
+            "useDefault": true
+        },
+        "eventType": "default"
+    },
+    {
+        "kind": "calendar#event",
+        "etag": "\"3339946357048000\"",
+        "id": "0hhco9hft7nfv1op0834rpskik_20221204T033000Z",
+        "status": "confirmed",
+        "htmlLink": "https://www.google.com/calendar/event?eid=MGhoY285aGZ0N25mdjFvcDA4MzRycHNraWtfMjAyMjEyMDRUMDMzMDAwWiBiZW50b24ud2lsbGlhbXNAbQ",
+        "created": "2020-05-10T01:10:29.000Z",
+        "updated": "2022-12-02T09:26:18.524Z",
+        "summary": "Pokerondrarkinderson",
+        "creator": {
+            "email": "benton.williams@gmail.com",
+            "self": true
+        },
+        "organizer": {
+            "email": "benton.williams@gmail.com",
+            "self": true
+        },
+        "start": {
+            "dateTime": "2022-12-03T19:30:00-08:00",
+            "timeZone": "America/Los_Angeles"
+        },
+        "end": {
+            "dateTime": "2022-12-03T22:00:00-08:00",
+            "timeZone": "America/Los_Angeles"
+        },
+        "recurringEventId": "0hhco9hft7nfv1op0834rpskik_R20220306T033000",
+        "originalStartTime": {
+            "dateTime": "2022-12-03T19:30:00-08:00",
+            "timeZone": "America/Los_Angeles"
+        },
+        "iCalUID": "0hhco9hft7nfv1op0834rpskik_R20220306T033000@google.com",
+        "sequence": 1,
+        "attendees": [
+            {
+                "email": "benton.williams@gmail.com",
+                "organizer": true,
+                "self": true,
+                "responseStatus": "accepted"
+            },
+            {
+                "email": "ryan.g.roemer@gmail.com",
+                "responseStatus": "declined"
+            },
+            {
+                "email": "martin.colaco@gmail.com",
+                "responseStatus": "accepted"
+            },
+            {
+                "email": "chris.kramer@gmail.com",
+                "responseStatus": "needsAction"
+            },
+            {
+                "email": "joegwalsh@gmail.com",
+                "responseStatus": "accepted"
+            },
+            {
+                "email": "kevin.friedman@gmail.com",
+                "responseStatus": "declined"
+            },
+            {
+                "email": "rohit.r.shah@gmail.com",
+                "responseStatus": "needsAction"
+            },
+            {
+                "email": "michael.botello@gmail.com",
+                "responseStatus": "accepted"
+            },
+            {
+                "email": "rishi.garg@gmail.com",
+                "responseStatus": "declined"
+            },
+            {
+                "email": "gunderjp@hotmail.com",
+                "responseStatus": "needsAction"
+            },
+            {
+                "email": "jimprit@yahoo.com",
+                "responseStatus": "needsAction"
+            }
+        ],
+        "hangoutLink": "https://meet.google.com/mrm-qipt-tat",
+        "conferenceData": {
+            "entryPoints": [
+                {
+                    "entryPointType": "video",
+                    "uri": "https://meet.google.com/mrm-qipt-tat",
+                    "label": "meet.google.com/mrm-qipt-tat"
+                }
+            ],
+            "conferenceSolution": {
+                "key": {
+                    "type": "hangoutsMeet"
+                },
+                "name": "Google Meet",
+                "iconUri": "https://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v6/web-512dp/logo_meet_2020q4_color_2x_web_512dp.png"
+            },
+            "conferenceId": "mrm-qipt-tat"
+        },
+        "reminders": {
+            "useDefault": true
+        },
+        "eventType": "default"
+    },
+    {
+        "kind": "calendar#event",
+        "etag": "\"3287059313158000\"",
+        "id": "g6ck7mt62jpfubi744agv3nij9_20221204T080000Z",
+        "status": "confirmed",
+        "htmlLink": "https://www.google.com/calendar/event?eid=ZzZjazdtdDYyanBmdWJpNzQ0YWd2M25pajlfMjAyMjEyMDRUMDgwMDAwWiBiZW50b24ud2lsbGlhbXNAbQ",
+        "created": "2016-10-02T06:56:14.000Z",
+        "updated": "2022-01-30T08:00:56.579Z",
+        "summary": "pay property tax - due by 12/10 or 4/10",
+        "description": "&nbsp;go to <a href=\"http://www.sanmateotaxcollector.org\">www.sanmateotaxcollector.org</a><br><br><br>either due 12/10 or 4/10",
+        "creator": {
+            "email": "bwilliams@slack-corp.com",
+            "displayName": "Benton Williams"
+        },
+        "organizer": {
+            "email": "benton.williams@gmail.com",
+            "displayName": "Benton Williams",
+            "self": true
+        },
+        "start": {
+            "dateTime": "2022-12-04T00:00:00-08:00",
+            "timeZone": "America/Los_Angeles"
+        },
+        "end": {
+            "dateTime": "2022-12-04T00:30:00-08:00",
+            "timeZone": "America/Los_Angeles"
+        },
+        "recurringEventId": "g6ck7mt62jpfubi744agv3nij9",
+        "originalStartTime": {
+            "dateTime": "2022-12-04T00:00:00-08:00",
+            "timeZone": "America/Los_Angeles"
+        },
+        "iCalUID": "g6ck7mt62jpfubi744agv3nij9@google.com",
+        "sequence": 9,
+        "reminders": {
+            "useDefault": true
+        },
+        "eventType": "default"
+    },
+    {
+        "kind": "calendar#event",
+        "etag": "\"3339389549406000\"",
+        "id": "7hk8qkl5bicjs1d7t0ak1usacp",
+        "status": "confirmed",
+        "htmlLink": "https://www.google.com/calendar/event?eid=N2hrOHFrbDViaWNqczFkN3QwYWsxdXNhY3AgYmVudG9uLndpbGxpYW1zQG0",
+        "created": "2022-11-15T07:09:59.000Z",
+        "updated": "2022-11-29T04:06:14.703Z",
+        "summary": "Abby's 5th Bday, painting & cake",
+        "description": "Come help Abby celebrate her 5th bday by painting with her.  Dress to paint, take your creation home with you.  Cake, juice and fruit will be provided. Dropoff allowed.  Due to space limitations, we recommend just 1 parent and your child and no siblings.   Jim's cell is 650-302-21145 if you can't get a hold of me.   Pls rsvp on Evite if possible.",
+        "location": "1309 California Dr, Burlingame, CA 94010, USA",
+        "creator": {
+            "email": "nhieuwarner@gmail.com"
+        },
+        "organizer": {
+            "email": "nhieuwarner@gmail.com"
+        },
+        "start": {
+            "dateTime": "2022-12-04T10:00:00-08:00",
+            "timeZone": "America/Los_Angeles"
+        },
+        "end": {
+            "dateTime": "2022-12-04T12:00:00-08:00",
+            "timeZone": "America/Los_Angeles"
+        },
+        "iCalUID": "7hk8qkl5bicjs1d7t0ak1usacp@google.com",
+        "sequence": 0,
+        "attendees": [
+            {
+                "email": "benton.williams@gmail.com",
+                "self": true,
+                "responseStatus": "needsAction"
+            },
+            {
+                "email": "tonya.alberelli@gmail.com",
+                "responseStatus": "needsAction"
+            },
+            {
+                "email": "lritschel2004@gmail.com",
+                "responseStatus": "needsAction"
+            },
+            {
+                "email": "lani.ludwick@gmail.com",
+                "responseStatus": "accepted"
+            },
+            {
+                "email": "ellieawarner@gmail.com",
+                "responseStatus": "accepted"
+            },
+            {
+                "email": "jwarner@gmail.com",
+                "responseStatus": "accepted"
+            },
+            {
+                "email": "nhieuwarner@gmail.com",
+                "organizer": true,
+                "responseStatus": "accepted"
+            },
+            {
+                "email": "beckettjwarner@gmail.com",
+                "responseStatus": "needsAction"
+            },
+            {
+                "email": "christineconnett@gmail.com",
+                "responseStatus": "accepted"
+            }
+        ],
+        "hangoutLink": "https://meet.google.com/rmp-rhng-udp",
+        "conferenceData": {
+            "entryPoints": [
+                {
+                    "entryPointType": "video",
+                    "uri": "https://meet.google.com/rmp-rhng-udp",
+                    "label": "meet.google.com/rmp-rhng-udp"
+                }
+            ],
+            "conferenceSolution": {
+                "key": {
+                    "type": "hangoutsMeet"
+                },
+                "name": "Google Meet",
+                "iconUri": "https://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v6/web-512dp/logo_meet_2020q4_color_2x_web_512dp.png"
+            },
+            "conferenceId": "rmp-rhng-udp"
+        },
+        "reminders": {
+            "useDefault": true
+        },
+        "eventType": "default"
+    },
+    {
+        "kind": "calendar#event",
+        "etag": "\"3339389366578000\"",
+        "id": "61ij0e3275hjebb374oj4b9k6gsjcbb1cks6abb370s3ee3560p62o9hco",
+        "status": "confirmed",
+        "htmlLink": "https://www.google.com/calendar/event?eid=NjFpajBlMzI3NWhqZWJiMzc0b2o0YjlrNmdzamNiYjFja3M2YWJiMzcwczNlZTM1NjBwNjJvOWhjbyBiZW50b24ud2lsbGlhbXNAbQ",
+        "created": "2022-10-16T21:53:51.000Z",
+        "updated": "2022-11-29T04:04:43.289Z",
+        "summary": "Beck's 11th bday, cake and snacks provided",
+        "location": "1309 California Dr, Burlingame, CA 94010, USA",
+        "creator": {
+            "email": "nhieuwarner@gmail.com"
+        },
+        "organizer": {
+            "email": "nhieuwarner@gmail.com"
+        },
+        "start": {
+            "dateTime": "2022-12-04T13:00:00-08:00",
+            "timeZone": "America/Los_Angeles"
+        },
+        "end": {
+            "dateTime": "2022-12-04T16:00:00-08:00",
+            "timeZone": "America/Los_Angeles"
+        },
+        "iCalUID": "61ij0e3275hjebb374oj4b9k6gsjcbb1cks6abb370s3ee3560p62o9hco@google.com",
+        "sequence": 2,
+        "attendees": [
+            {
+                "email": "christineconnett@gmail.com",
+                "displayName": "Christine Will'S Mom Beck",
+                "responseStatus": "accepted"
+            },
+            {
+                "email": "petersleah@gmail.com",
+                "displayName": "Leah Peters",
+                "responseStatus": "needsAction"
+            },
+            {
+                "email": "schaffer.j.c@gmail.com",
+                "displayName": "Jonathan Schaffer",
+                "responseStatus": "needsAction"
+            },
+            {
+                "email": "beckettjwarner@gmail.com",
+                "displayName": "Beck Warner",
+                "responseStatus": "needsAction"
+            },
+            {
+                "email": "aikochikaba@gmail.com",
+                "displayName": "Aiko Chikaba + Carlos Pierre",
+                "responseStatus": "accepted"
+            },
+            {
+                "email": "megansticker@gmail.com",
+                "displayName": "Megan Seidensticker",
+                "responseStatus": "needsAction"
+            },
+            {
+                "email": "pierre.carlos@gmail.com",
+                "displayName": "Carlos Pierre",
+                "responseStatus": "needsAction"
+            },
+            {
+                "email": "adijamco@gmail.com",
+                "displayName": "Angeline DeLaurentis",
+                "responseStatus": "needsAction"
+            },
+            {
+                "email": "ericjamespeters@gmail.com",
+                "displayName": "Eric Peters",
+                "responseStatus": "needsAction"
+            },
+            {
+                "email": "benton.williams@gmail.com",
+                "self": true,
+                "responseStatus": "needsAction"
+            },
+            {
+                "email": "lani.ludwick@gmail.com",
+                "displayName": "Lani Alex Mom",
+                "responseStatus": "accepted"
+            },
+            {
+                "email": "ellieawarner@gmail.com",
+                "displayName": "Ellie Warner",
+                "responseStatus": "accepted"
+            },
+            {
+                "email": "jwarner@gmail.com",
+                "displayName": "I.C.E. Husband James Warner",
+                "responseStatus": "accepted"
+            },
+            {
+                "email": "nhieuwarner@gmail.com",
+                "organizer": true,
+                "responseStatus": "accepted"
+            },
+            {
+                "email": "poornima.d.bhat@gmail.com",
+                "responseStatus": "needsAction"
+            }
+        ],
+        "hangoutLink": "https://meet.google.com/gtz-xdvn-qaq",
+        "conferenceData": {
+            "createRequest": {
+                "requestId": "64q36opgc4o64b9k6cqm8b9k68oj6bb1cgrj2b9occr64dpk6gr30e9n6s",
+                "conferenceSolutionKey": {
+                    "type": "hangoutsMeet"
+                },
+                "status": {
+                    "statusCode": "success"
+                }
+            },
+            "entryPoints": [
+                {
+                    "entryPointType": "video",
+                    "uri": "https://meet.google.com/gtz-xdvn-qaq",
+                    "label": "meet.google.com/gtz-xdvn-qaq"
+                }
+            ],
+            "conferenceSolution": {
+                "key": {
+                    "type": "hangoutsMeet"
+                },
+                "name": "Google Meet",
+                "iconUri": "https://fonts.gstatic.com/s/i/productlogos/meet_2020q4/v6/web-512dp/logo_meet_2020q4_color_2x_web_512dp.png"
+            },
+            "conferenceId": "gtz-xdvn-qaq"
+        },
+        "reminders": {
+            "useDefault": true
+        },
+        "eventType": "default"
+    },
+    {
+        "kind": "calendar#event",
+        "etag": "\"3287059313158000\"",
+        "id": "g6ck7mt62jpfubi744agv3nij9_20221205T080000Z",
+        "status": "confirmed",
+        "htmlLink": "https://www.google.com/calendar/event?eid=ZzZjazdtdDYyanBmdWJpNzQ0YWd2M25pajlfMjAyMjEyMDVUMDgwMDAwWiBiZW50b24ud2lsbGlhbXNAbQ",
+        "created": "2016-10-02T06:56:14.000Z",
+        "updated": "2022-01-30T08:00:56.579Z",
+        "summary": "pay property tax - due by 12/10 or 4/10",
+        "description": "&nbsp;go to <a href=\"http://www.sanmateotaxcollector.org\">www.sanmateotaxcollector.org</a><br><br><br>either due 12/10 or 4/10",
+        "creator": {
+            "email": "bwilliams@slack-corp.com",
+            "displayName": "Benton Williams"
+        },
+        "organizer": {
+            "email": "benton.williams@gmail.com",
+            "displayName": "Benton Williams",
+            "self": true
+        },
+        "start": {
+            "dateTime": "2022-12-05T00:00:00-08:00",
+            "timeZone": "America/Los_Angeles"
+        },
+        "end": {
+            "dateTime": "2022-12-05T00:30:00-08:00",
+            "timeZone": "America/Los_Angeles"
+        },
+        "recurringEventId": "g6ck7mt62jpfubi744agv3nij9",
+        "originalStartTime": {
+            "dateTime": "2022-12-05T00:00:00-08:00",
+            "timeZone": "America/Los_Angeles"
+        },
+        "iCalUID": "g6ck7mt62jpfubi744agv3nij9@google.com",
+        "sequence": 9,
+        "reminders": {
+            "useDefault": true
+        },
+        "eventType": "default"
+    },
+    {
+        "kind": "calendar#event",
+        "etag": "\"3340013595104000\"",
+        "id": "1b808t42ddof08l71cvfkrho3s",
+        "status": "confirmed",
+        "htmlLink": "https://www.google.com/calendar/event?eid=MWI4MDh0NDJkZG9mMDhsNzFjdmZrcmhvM3MgYmVudG9uLndpbGxpYW1zQG0",
+        "created": "2022-11-28T18:30:49.000Z",
+        "updated": "2022-12-02T18:46:37.552Z",
+        "summary": "Call: Benton Williams | Dan Levine (Accel) ",
+        "description": "<br>Fri, Nov 18, 2022 at 10:55 AM Benton Williams &lt;<a href=\"mailto:benton.williams@gmail.com\" id=\"ow15649\" __is_owner=\"true\">benton.williams@gmail.com</a>&gt; wrote:<blockquote><br>Hi Dan,<br><br>Hope you&nbsp;are well. We spoke over a year ago about Mux while I was still at Salesforce and subsequent to our chat, I joined as their head of corp dev. It was a good experience while it lasted but with their recent headwinds and layoffs, I was impacted and am now looking for my next role. I was wondering if you'd have time for a quick chat to share a bit about what you are seeing and get any advice. And no worries if you&nbsp;are slammed, I certainly understand.<br><br>Thanks and take care,<br>Benton Williams</blockquote>",
+        "location": "Dan to call Benton at 415-279-2485",
+        "creator": {
+            "email": "aandersen@accel.com"
+        },
+        "organizer": {
+            "email": "daniel@accel.com"
+        },
+        "start": {
+            "dateTime": "2022-12-05T09:45:00-08:00",
+            "timeZone": "America/Los_Angeles"
+        },
+        "end": {
+            "dateTime": "2022-12-05T10:30:00-08:00",
+            "timeZone": "America/Los_Angeles"
+        },
+        "iCalUID": "1b808t42ddof08l71cvfkrho3s@google.com",
+        "sequence": 1,
+        "attendees": [
+            {
+                "email": "benton.williams@gmail.com",
+                "self": true,
+                "responseStatus": "accepted"
+            },
+            {
+                "email": "daniel@accel.com",
+                "organizer": true,
+                "responseStatus": "accepted"
+            }
+        ],
+        "reminders": {
+            "useDefault": true
+        },
+        "eventType": "default"
+    },
+    {
+        "kind": "calendar#event",
+        "etag": "\"3339361481436000\"",
+        "id": "1ctk6v3m0mtiqpgov2h51a8l6k",
+        "status": "confirmed",
+        "htmlLink": "https://www.google.com/calendar/event?eid=MWN0azZ2M20wbXRpcXBnb3YyaDUxYThsNmsgYmVudG9uLndpbGxpYW1zQG0",
+        "created": "2022-11-29T00:12:20.000Z",
+        "updated": "2022-11-29T00:12:20.718Z",
+        "summary": "Block - call with Dan Levine re Jobs",
+        "creator": {
+            "email": "benton.williams@gmail.com",
+            "self": true
+        },
+        "organizer": {
+            "email": "benton.williams@gmail.com",
+            "self": true
+        },
+        "start": {
+            "dateTime": "2022-12-05T09:45:00-08:00",
+            "timeZone": "America/Los_Angeles"
+        },
+        "end": {
+            "dateTime": "2022-12-05T10:15:00-08:00",
+            "timeZone": "America/Los_Angeles"
+        },
+        "iCalUID": "1ctk6v3m0mtiqpgov2h51a8l6k@google.com",
+        "sequence": 0,
+        "reminders": {
+            "useDefault": true
+        },
+        "eventType": "default"
+    }
+]
