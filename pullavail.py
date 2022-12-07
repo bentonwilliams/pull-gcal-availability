@@ -22,7 +22,7 @@ def pullevents():
     # Calendar API parameters
     now=dt.datetime.utcnow()
     startdate = now.isoformat() + 'Z' # 'Z' indicates UTC time
-    numberofdaysout=3
+    numberofdaysout=10
     enddate=(now+dt.timedelta(days=numberofdaysout)).isoformat()+'Z'
 
     print('Getting the upcoming 10 events')
@@ -43,50 +43,92 @@ def pullevents():
             f.write(json_calendars)
     return events
 
+def clipblocks(openblocks):
+    clippedopenblocks=[]
+    h_0=9
+    m_0=0
+    h_1=17
+    m_1=0
+    #if the block starts after window or block ends before window, False
+    for block in openblocks:
+        
+        start=block[0]
+        end=block[1]
+        dtzero=start.replace(hour=h_0, minute=m_0)
+        dtone=start.replace(hour=h_1, minute=m_1)
+        if start<dtzero and end>dtzero:
+            start=dtzero
+        if end>dtone and start<dtone:
+            end=dtone
+        if end>dtzero and start<dtone:
+            clippedopenblocks.append((start,end))
+    return clippedopenblocks
+        
 
 def findopenblocks(events):
-    bob=dt.datetime.fromisoformat(events[0]['start'].get('dateTime',events[0].get('date')))
-    bob=bob.replace(hour=0)
+    end=dt.datetime.fromisoformat(events[0]['start'].get('dateTime',events[0].get('date')))
+    end=end.replace(hour=0,minute=0)
     openblocks,bookedblocks=[],[]
     for event in events:
-        a = dt.datetime.fromisoformat(event['start'].get('dateTime', event['start'].get('date')))
-        if a>bob: openblocks.append((bob,a))
-        bob = dt.datetime.fromisoformat(event['end'].get('dateTime'))
-        bookedblocks.append((a,bob))
-
+        start= dt.datetime.fromisoformat(event['start'].get('dateTime', event['start'].get('date')))
+        if start>end:  
+            openblocks.append((end,start))
+        end = dt.datetime.fromisoformat(event['end'].get('dateTime'))
+        bookedblocks.append((start,end))
+    last=start.replace(day=start.day+1,hour=0,minute=0,second=0)
+    if last>end: openblocks.append((end,last))
+    openblocks=clipblocks(openblocks)
     #print(openblocks)
+    print("printing booked blocks:")
     for i in range(0,len(bookedblocks)):
         print(bookedblocks[i][0].strftime("%m/%d T %X"),end=" -")
         print(bookedblocks[i][1].strftime("%m/%d T %X"))
+    print("Printing open blocks")
     for i in range(0,len(openblocks)):
         print(openblocks[i][0].strftime("%m/%d T %X"),end=" -")
         print(openblocks[i][1].strftime("%m/%d T %X"))
     return openblocks
 
 def printblocks(openblocks):
-    earliest_start_hour=9
-    latest_end_hour=17
-    cur_day=openblocks[0][0]
+    day1=openblocks[0][0]
+    daylist=[day1]
+    for _ in range(10):
+        day1=day1.replace(day=day1.day+1)
+        daylist.append(day1)
+
+    print("printing for pasting...")
+    cur=openblocks[0][0]
     dayblocks=[]
-    for i in range(0,len(openblocks)):
-        #print(openblocks[i])
-        a=openblocks[i][0]
-        # a=a.replace(hour=max(a.hour,earliest_start_hour),minute=0)
-        # if a.hour>latest_end_hour: continue
-       
-        b=openblocks[i][1]
-        # b=b.replace(hour=min(b.hour,latest_end_hour),minute=0)
-         
-        if a.day==cur_day.day:
-            dayblocks.append(a.strftime("%I:%M%p")+"-"+b.strftime('%I:%M%p'))
-        else:
-            print(cur_day.strftime("%a (%m/%d)"),end=": ")
-            for block in dayblocks:
-                print (block,end=", ")
-            print()
-            cur_day=a
-            dayblocks=[]   
-        
+    #print date:
+    month=str(int(cur.strftime("%m")))
+    day=str(int(cur.strftime("%d")))
+    print(f'{month}/{day} {cur.strftime("%a")}:',end=" ")
+    #print(cur.strftime("%a %m/%d"),end=": ")
+    
+    for block in openblocks:
+        start=block[0]
+        end=block[1]
+        dayname=start.strftime("%a")
+        if start.day!=cur.day:
+            
+            month=str(int(start.strftime("%m")))
+            day=str(int(start.strftime("%d")))
+            if dayname not in ["Sat","Sun"]: 
+                print()
+                print(f'{month}/{day} {start.strftime("%a")}:',end=" ")
+            cur=start
+        if start.day==cur.day and dayname not in ["Sat","Sun"]:
+            for t in [start,end]:
+                hour=int(t.strftime("%I"))
+                minute=":"+t.strftime("%M")
+                if minute==":00": minute=""
+                if t.strftime("%p")=="AM": ampm="a"
+                if t.strftime("%p")=="PM": ampm="p"
+                if t==start: dash='-'
+                else: dash=" "
+                print(f'{hour}{minute}',end=dash)
+            #print(start.strftime("%I:%M%p")+"-"+end.strftime('%I:%M%p'),end=" ")
+            
 def main():
     events=pullevents()
     #with open("calevents.json","r") as f:
