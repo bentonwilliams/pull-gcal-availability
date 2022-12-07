@@ -11,10 +11,10 @@ import json
 def pullevents():
     # setup the calendar api    
     SCOPES = 'https://www.googleapis.com/auth/calendar.readonly'
-    store = file.Storage('credentials.json')
+    store = file.Storage(r'/Users/bentonwilliams/Projects/tokens/credentials.json')
     creds = store.get()
     if not creds or creds.invalid:
-        flow = client.flow_from_clientsecrets('client_secret.json', SCOPES)
+        flow = client.flow_from_clientsecrets(r'/Users/bentonwilliams/Projects/tokens/client_secret.json', SCOPES)
         creds = tools.run_flow(flow, store)
     
     service = build('calendar', 'v3', http=creds.authorize(Http()))
