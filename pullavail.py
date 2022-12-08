@@ -79,14 +79,14 @@ def findopenblocks(events):
     if last>end: openblocks.append((end,last))
     openblocks=clipblocks(openblocks)
     #print(openblocks)
-    print("printing booked blocks:")
-    for i in range(0,len(bookedblocks)):
-        print(bookedblocks[i][0].strftime("%m/%d T %X"),end=" -")
-        print(bookedblocks[i][1].strftime("%m/%d T %X"))
-    print("Printing open blocks")
-    for i in range(0,len(openblocks)):
-        print(openblocks[i][0].strftime("%m/%d T %X"),end=" -")
-        print(openblocks[i][1].strftime("%m/%d T %X"))
+    # print("printing booked blocks:")
+    # for i in range(0,len(bookedblocks)):
+    #     print(bookedblocks[i][0].strftime("%m/%d T %X"),end=" -")
+    #     print(bookedblocks[i][1].strftime("%m/%d T %X"))
+    # print("Printing open blocks")
+    # for i in range(0,len(openblocks)):
+    #     print(openblocks[i][0].strftime("%m/%d T %X"),end=" -")
+    #     print(openblocks[i][1].strftime("%m/%d T %X"))
     return openblocks
 
 def printblocks(openblocks):
