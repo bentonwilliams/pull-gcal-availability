@@ -1,0 +1,572 @@
+[
+    {
+        "kind": "calendar#event",
+        "etag": "\"3330360491440000\"",
+        "id": "6kcivf2m35b0g6gskp4jkjrqa6_20221209T235000Z",
+        "status": "confirmed",
+        "htmlLink": "https://www.google.com/calendar/event?eid=NmtjaXZmMm0zNWIwZzZnc2twNGpranJxYTZfMjAyMjEyMDlUMjM1MDAwWiBmYW1pbHkxNzAxODE2MzYzNzQxODEyMjk2NUBn",
+        "created": "2022-06-24T05:47:41.000Z",
+        "updated": "2022-10-07T22:04:05.720Z",
+        "summary": "Alex - Jazz 5, Pre Teen company (1hr)",
+        "description": "<table><tbody><tr><td>Alexandra</td><td>Williams</td><td>2022-2023 September 6, 2022-June 17, 2023</td><td>Ballet V A (2x a Week &amp; Pre Pointe) Tuesday 4:30-6:00 pm - Studio A</td><td>Tuesday</td><td>4:30 PM</td><td>90</td><td>2022-2023 Ballet</td><td></td><td>Alice Wells</td><td></td></tr><tr><td>Alexandra</td><td>Williams</td><td>2022-2023 September 6, 2022-June 17, 2023</td><td>Contemporary V (Ballet V Required) Thursday 3:30-4:30 pm - Studio D</td><td>Thursday</td><td>3:30 PM</td><td>60</td><td>2022-2023 Lyrical/Contemporary</td><td></td><td>Angela Holmes</td><td></td></tr><tr><td>Alexandra</td><td>Williams</td><td>2022-2023 September 6, 2022-June 17, 2023</td><td>Ballet V A (2x a Week &amp; Pre Pointe) Thursday 4:30-5:30 pm - Studio A</td><td>Thursday</td><td>4:30 PM</td><td>60</td><td>2022-2023 Ballet</td><td></td><td>Hikari Jacobson</td><td></td></tr><tr><td>Alexandra</td><td>Williams</td><td>2022-2023 September 6, 2022-June 17, 2023</td><td>Pre Pointe V A (2x a Week &amp; Pre Pointe) Thursday 5:30-6:00 pm - Studio A</td><td>Thursday</td><td>5:30 PM</td><td>30</td><td>2022-2023 Ballet</td><td></td><td>Hikari Jacobson</td><td></td></tr><tr><td>Alexandra</td><td>Williams</td><td>2022-2023 September 6, 2022-June 17, 2023</td><td>Jazz V A (Ballet V A Required) Friday 3:50-5:05 pm - Studio A</td><td>Friday</td><td>3:50 PM</td><td>75</td><td>2022-2023 Jazz</td><td></td><td>Alice Foy</td><td></td></tr><tr><td>Alexandra</td><td>Williams</td><td>2022-2023 September 6, 2022-June 17, 2023</td><td>Pre Teen Company Rehearsal Friday 5:05-6:05 pm - Studio A</td><td>Friday</td><td>5:05 PM</td><td>60</td><td>2022-2023 Company Rehearsal</td><td></td><td>TBA Dance Teacher</td><td></td></tr><tr><td>Austin</td><td>williams</td><td>2022-2023 September 6, 2022-June 17, 2023</td><td>Ballet &amp; Tap Combo (Ages 4-5) Saturday 9:00-9:45 am - Studio C</td><td>Saturday</td><td>9:00 AM</td><td>45</td><td>2022-2023 Combo</td><td></td><td>Sharon Anzora</td></tr></tbody></table>",
+        "creator": {
+            "email": "lani.ludwick@gmail.com"
+        },
+        "organizer": {
+            "email": "family17018163637418122965@group.calendar.google.com",
+            "displayName": "Family",
+            "self": true
+        },
+        "start": {
+            "dateTime": "2022-12-09T23:50:00Z",
+            "timeZone": "America/Los_Angeles"
+        },
+        "end": {
+            "dateTime": "2022-12-10T02:05:00Z",
+            "timeZone": "America/Los_Angeles"
+        },
+        "recurringEventId": "6kcivf2m35b0g6gskp4jkjrqa6",
+        "originalStartTime": {
+            "dateTime": "2022-12-09T23:50:00Z",
+            "timeZone": "America/Los_Angeles"
+        },
+        "iCalUID": "6kcivf2m35b0g6gskp4jkjrqa6@google.com",
+        "sequence": 0,
+        "reminders": {
+            "useDefault": true
+        },
+        "eventType": "default"
+    },
+    {
+        "kind": "calendar#event",
+        "etag": "\"3325517478430000\"",
+        "id": "4s4n5cj33cq0uh8roj772di163_20221210T011500Z",
+        "status": "confirmed",
+        "htmlLink": "https://www.google.com/calendar/event?eid=NHM0bjVjajMzY3EwdWg4cm9qNzcyZGkxNjNfMjAyMjEyMTBUMDExNTAwWiBmYW1pbHkxNzAxODE2MzYzNzQxODEyMjk2NUBn",
+        "created": "2022-09-08T15:34:27.000Z",
+        "updated": "2022-09-09T21:25:39.215Z",
+        "summary": "Clean van",
+        "creator": {
+            "email": "lani.ludwick@gmail.com"
+        },
+        "organizer": {
+            "email": "family17018163637418122965@group.calendar.google.com",
+            "displayName": "Family",
+            "self": true
+        },
+        "start": {
+            "dateTime": "2022-12-10T01:15:00Z",
+            "timeZone": "America/Los_Angeles"
+        },
+        "end": {
+            "dateTime": "2022-12-10T01:45:00Z",
+            "timeZone": "America/Los_Angeles"
+        },
+        "recurringEventId": "4s4n5cj33cq0uh8roj772di163",
+        "originalStartTime": {
+            "dateTime": "2022-12-10T01:15:00Z",
+            "timeZone": "America/Los_Angeles"
+        },
+        "iCalUID": "4s4n5cj33cq0uh8roj772di163@google.com",
+        "sequence": 4,
+        "reminders": {
+            "useDefault": true
+        },
+        "eventType": "default"
+    },
+    {
+        "kind": "calendar#event",
+        "etag": "\"3325661048358000\"",
+        "id": "2oa7ar0bqd6t3o74mv6hmjttqm_20221210T014500Z",
+        "status": "confirmed",
+        "htmlLink": "https://www.google.com/calendar/event?eid=Mm9hN2FyMGJxZDZ0M283NG12NmhtanR0cW1fMjAyMjEyMTBUMDE0NTAwWiBmYW1pbHkxNzAxODE2MzYzNzQxODEyMjk2NUBn",
+        "created": "2022-09-09T20:00:01.000Z",
+        "updated": "2022-09-10T17:22:04.179Z",
+        "summary": "Dance carpool pickup @6:05pm",
+        "creator": {
+            "email": "lani.ludwick@gmail.com"
+        },
+        "organizer": {
+            "email": "family17018163637418122965@group.calendar.google.com",
+            "displayName": "Family",
+            "self": true
+        },
+        "start": {
+            "dateTime": "2022-12-10T01:45:00Z",
+            "timeZone": "America/Los_Angeles"
+        },
+        "end": {
+            "dateTime": "2022-12-10T02:30:00Z",
+            "timeZone": "America/Los_Angeles"
+        },
+        "recurringEventId": "2oa7ar0bqd6t3o74mv6hmjttqm",
+        "originalStartTime": {
+            "dateTime": "2022-12-10T01:45:00Z",
+            "timeZone": "America/Los_Angeles"
+        },
+        "iCalUID": "2oa7ar0bqd6t3o74mv6hmjttqm@google.com",
+        "sequence": 1,
+        "reminders": {
+            "useDefault": true
+        },
+        "eventType": "default"
+    },
+    {
+        "kind": "calendar#event",
+        "etag": "\"3323443364124000\"",
+        "id": "52rsr78g533oslo52h1kh0nstd_20221210T020000Z",
+        "status": "confirmed",
+        "htmlLink": "https://www.google.com/calendar/event?eid=NTJyc3I3OGc1MzNvc2xvNTJoMWtoMG5zdGRfMjAyMjEyMTBUMDIwMDAwWiBmYW1pbHkxNzAxODE2MzYzNzQxODEyMjk2NUBn",
+        "created": "2022-08-09T00:45:52.000Z",
+        "updated": "2022-08-28T21:21:22.062Z",
+        "summary": "Lani - Heartbeat Dance, Adult Hip Hop",
+        "creator": {
+            "email": "lani.ludwick@gmail.com"
+        },
+        "organizer": {
+            "email": "family17018163637418122965@group.calendar.google.com",
+            "displayName": "Family",
+            "self": true
+        },
+        "start": {
+            "dateTime": "2022-12-10T02:00:00Z",
+            "timeZone": "America/Los_Angeles"
+        },
+        "end": {
+            "dateTime": "2022-12-10T03:00:00Z",
+            "timeZone": "America/Los_Angeles"
+        },
+        "recurringEventId": "52rsr78g533oslo52h1kh0nstd",
+        "originalStartTime": {
+            "dateTime": "2022-12-10T02:00:00Z",
+            "timeZone": "America/Los_Angeles"
+        },
+        "iCalUID": "52rsr78g533oslo52h1kh0nstd@google.com",
+        "sequence": 0,
+        "reminders": {
+            "useDefault": true
+        },
+        "eventType": "default"
+    },
+    {
+        "kind": "calendar#event",
+        "etag": "\"3316253640394000\"",
+        "id": "n5fudjpahdkpc0h2h3q6vrh3ob_20221210T040000Z",
+        "status": "confirmed",
+        "htmlLink": "https://www.google.com/calendar/event?eid=bjVmdWRqcGFoZGtwYzBoMmgzcTZ2cmgzb2JfMjAyMjEyMTBUMDQwMDAwWiBmYW1pbHkxNzAxODE2MzYzNzQxODEyMjk2NUBn",
+        "created": "2022-06-06T15:31:09.000Z",
+        "updated": "2022-07-18T06:47:00.197Z",
+        "summary": "CTY test",
+        "creator": {
+            "email": "lani.ludwick@gmail.com"
+        },
+        "organizer": {
+            "email": "family17018163637418122965@group.calendar.google.com",
+            "displayName": "Family",
+            "self": true
+        },
+        "start": {
+            "dateTime": "2022-12-10T04:00:00Z",
+            "timeZone": "America/Los_Angeles"
+        },
+        "end": {
+            "dateTime": "2022-12-10T05:00:00Z",
+            "timeZone": "America/Los_Angeles"
+        },
+        "recurringEventId": "n5fudjpahdkpc0h2h3q6vrh3ob",
+        "originalStartTime": {
+            "dateTime": "2022-12-10T04:00:00Z",
+            "timeZone": "America/Los_Angeles"
+        },
+        "iCalUID": "n5fudjpahdkpc0h2h3q6vrh3ob@google.com",
+        "sequence": 1,
+        "reminders": {
+            "useDefault": true
+        },
+        "eventType": "default"
+    },
+    {
+        "kind": "calendar#event",
+        "etag": "\"3334132136354000\"",
+        "id": "5da0ocbdi68bmp9lut2ct4sfrq",
+        "status": "confirmed",
+        "htmlLink": "https://www.google.com/calendar/event?eid=NWRhMG9jYmRpNjhibXA5bHV0MmN0NHNmcnEgZmFtaWx5MTcwMTgxNjM2Mzc0MTgxMjI5NjVAZw",
+        "created": "2022-10-29T17:54:28.000Z",
+        "updated": "2022-10-29T17:54:28.177Z",
+        "summary": "Mall performance - Alex (time?)",
+        "creator": {
+            "email": "lani.ludwick@gmail.com"
+        },
+        "organizer": {
+            "email": "family17018163637418122965@group.calendar.google.com",
+            "displayName": "Family",
+            "self": true
+        },
+        "start": {
+            "dateTime": "2022-12-10T15:00:00Z",
+            "timeZone": "America/Los_Angeles"
+        },
+        "end": {
+            "dateTime": "2022-12-10T16:00:00Z",
+            "timeZone": "America/Los_Angeles"
+        },
+        "iCalUID": "5da0ocbdi68bmp9lut2ct4sfrq@google.com",
+        "sequence": 0,
+        "reminders": {
+            "useDefault": true
+        },
+        "eventType": "default"
+    },
+    {
+        "kind": "calendar#event",
+        "etag": "\"3338198415768000\"",
+        "id": "18pa3rufm19uvua5sogbg027hd",
+        "status": "confirmed",
+        "htmlLink": "https://www.google.com/calendar/event?eid=MThwYTNydWZtMTl1dnVhNXNvZ2JnMDI3aGQgZmFtaWx5MTcwMTgxNjM2Mzc0MTgxMjI5NjVAZw",
+        "created": "2022-11-22T06:40:07.000Z",
+        "updated": "2022-11-22T06:40:07.884Z",
+        "summary": "Karsten's bday",
+        "creator": {
+            "email": "lani.ludwick@gmail.com"
+        },
+        "organizer": {
+            "email": "family17018163637418122965@group.calendar.google.com",
+            "displayName": "Family",
+            "self": true
+        },
+        "start": {
+            "dateTime": "2022-12-10T19:00:00Z",
+            "timeZone": "America/Los_Angeles"
+        },
+        "end": {
+            "dateTime": "2022-12-10T20:30:00Z",
+            "timeZone": "America/Los_Angeles"
+        },
+        "iCalUID": "18pa3rufm19uvua5sogbg027hd@google.com",
+        "sequence": 0,
+        "reminders": {
+            "useDefault": true
+        },
+        "eventType": "default"
+    },
+    {
+        "kind": "calendar#event",
+        "etag": "\"3340851500076000\"",
+        "id": "64dle2av621ovtdloq134o53l4",
+        "status": "confirmed",
+        "htmlLink": "https://www.google.com/calendar/event?eid=NjRkbGUyYXY2MjFvdnRkbG9xMTM0bzUzbDQgZmFtaWx5MTcwMTgxNjM2Mzc0MTgxMjI5NjVAZw",
+        "created": "2022-12-07T15:09:10.000Z",
+        "updated": "2022-12-07T15:09:10.038Z",
+        "summary": "Juliette over",
+        "creator": {
+            "email": "lani.ludwick@gmail.com"
+        },
+        "organizer": {
+            "email": "family17018163637418122965@group.calendar.google.com",
+            "displayName": "Family",
+            "self": true
+        },
+        "start": {
+            "dateTime": "2022-12-10T21:00:00Z",
+            "timeZone": "America/Los_Angeles"
+        },
+        "end": {
+            "dateTime": "2022-12-10T23:00:00Z",
+            "timeZone": "America/Los_Angeles"
+        },
+        "iCalUID": "64dle2av621ovtdloq134o53l4@google.com",
+        "sequence": 0,
+        "reminders": {
+            "useDefault": true
+        },
+        "eventType": "default"
+    },
+    {
+        "kind": "calendar#event",
+        "etag": "\"3339744782882000\"",
+        "id": "3c0q5b9t73fgu9r6gk28dd2qhb",
+        "status": "confirmed",
+        "htmlLink": "https://www.google.com/calendar/event?eid=M2MwcTViOXQ3M2ZndTlyNmdrMjhkZDJxaGIgZmFtaWx5MTcwMTgxNjM2Mzc0MTgxMjI5NjVAZw",
+        "created": "2022-12-01T05:26:31.000Z",
+        "updated": "2022-12-01T05:26:31.441Z",
+        "summary": "Nyogis",
+        "creator": {
+            "email": "lani.ludwick@gmail.com"
+        },
+        "organizer": {
+            "email": "family17018163637418122965@group.calendar.google.com",
+            "displayName": "Family",
+            "self": true
+        },
+        "start": {
+            "dateTime": "2022-12-11T01:00:00Z",
+            "timeZone": "America/Los_Angeles"
+        },
+        "end": {
+            "dateTime": "2022-12-11T03:00:00Z",
+            "timeZone": "America/Los_Angeles"
+        },
+        "iCalUID": "3c0q5b9t73fgu9r6gk28dd2qhb@google.com",
+        "sequence": 0,
+        "reminders": {
+            "useDefault": true
+        },
+        "eventType": "default"
+    },
+    {
+        "kind": "calendar#event",
+        "etag": "\"3340344841848000\"",
+        "id": "48a350h4voo3acaqhr75uu53p0",
+        "status": "confirmed",
+        "htmlLink": "https://www.google.com/calendar/event?eid=NDhhMzUwaDR2b28zYWNhcWhyNzV1dTUzcDAgZmFtaWx5MTcwMTgxNjM2Mzc0MTgxMjI5NjVAZw",
+        "created": "2022-12-04T16:47:00.000Z",
+        "updated": "2022-12-04T16:47:00.924Z",
+        "summary": "Alex's dance performance",
+        "creator": {
+            "email": "lani.ludwick@gmail.com"
+        },
+        "organizer": {
+            "email": "family17018163637418122965@group.calendar.google.com",
+            "displayName": "Family",
+            "self": true
+        },
+        "start": {
+            "dateTime": "2022-12-11T01:30:00Z",
+            "timeZone": "America/Los_Angeles"
+        },
+        "end": {
+            "dateTime": "2022-12-11T04:00:00Z",
+            "timeZone": "America/Los_Angeles"
+        },
+        "iCalUID": "48a350h4voo3acaqhr75uu53p0@google.com",
+        "sequence": 0,
+        "reminders": {
+            "useDefault": true
+        },
+        "eventType": "default"
+    },
+    {
+        "kind": "calendar#event",
+        "etag": "\"3316253640394000\"",
+        "id": "n5fudjpahdkpc0h2h3q6vrh3ob_20221211T040000Z",
+        "status": "confirmed",
+        "htmlLink": "https://www.google.com/calendar/event?eid=bjVmdWRqcGFoZGtwYzBoMmgzcTZ2cmgzb2JfMjAyMjEyMTFUMDQwMDAwWiBmYW1pbHkxNzAxODE2MzYzNzQxODEyMjk2NUBn",
+        "created": "2022-06-06T15:31:09.000Z",
+        "updated": "2022-07-18T06:47:00.197Z",
+        "summary": "CTY test",
+        "creator": {
+            "email": "lani.ludwick@gmail.com"
+        },
+        "organizer": {
+            "email": "family17018163637418122965@group.calendar.google.com",
+            "displayName": "Family",
+            "self": true
+        },
+        "start": {
+            "dateTime": "2022-12-11T04:00:00Z",
+            "timeZone": "America/Los_Angeles"
+        },
+        "end": {
+            "dateTime": "2022-12-11T05:00:00Z",
+            "timeZone": "America/Los_Angeles"
+        },
+        "recurringEventId": "n5fudjpahdkpc0h2h3q6vrh3ob",
+        "originalStartTime": {
+            "dateTime": "2022-12-11T04:00:00Z",
+            "timeZone": "America/Los_Angeles"
+        },
+        "iCalUID": "n5fudjpahdkpc0h2h3q6vrh3ob@google.com",
+        "sequence": 1,
+        "reminders": {
+            "useDefault": true
+        },
+        "eventType": "default"
+    },
+    {
+        "kind": "calendar#event",
+        "etag": "\"3335675814286000\"",
+        "id": "6rcna7ba5787635n53bdnfm6o4_20221211T180000Z",
+        "status": "confirmed",
+        "htmlLink": "https://www.google.com/calendar/event?eid=NnJjbmE3YmE1Nzg3NjM1bjUzYmRuZm02bzRfMjAyMjEyMTFUMTgwMDAwWiBmYW1pbHkxNzAxODE2MzYzNzQxODEyMjk2NUBn",
+        "created": "2022-09-14T16:21:11.000Z",
+        "updated": "2022-11-07T16:18:27.143Z",
+        "summary": "Lincoln Flag Football - Special NextLevel Dec Camp!",
+        "description": "<b><u>Program Dates:</u></b><br><ul><li>Sunday, December 4th</li><li>Sunday, December 11th</li><li>Sunday, December 18th</li></ul><br><br><b><u>Program Time:</u></b><br><ul><li>10:00 a.m. to 1:00 p.m.</li></ul>",
+        "creator": {
+            "email": "lani.ludwick@gmail.com"
+        },
+        "organizer": {
+            "email": "family17018163637418122965@group.calendar.google.com",
+            "displayName": "Family",
+            "self": true
+        },
+        "start": {
+            "dateTime": "2022-12-11T18:00:00Z",
+            "timeZone": "America/Los_Angeles"
+        },
+        "end": {
+            "dateTime": "2022-12-11T21:00:00Z",
+            "timeZone": "America/Los_Angeles"
+        },
+        "recurringEventId": "6rcna7ba5787635n53bdnfm6o4",
+        "originalStartTime": {
+            "dateTime": "2022-12-11T18:00:00Z",
+            "timeZone": "America/Los_Angeles"
+        },
+        "iCalUID": "6rcna7ba5787635n53bdnfm6o4@google.com",
+        "sequence": 0,
+        "reminders": {
+            "useDefault": true
+        },
+        "eventType": "default"
+    },
+    {
+        "kind": "calendar#event",
+        "etag": "\"3340100535762000\"",
+        "id": "2l6o6plfeh3f8avu48u3km487i_20221212T000000Z",
+        "status": "confirmed",
+        "htmlLink": "https://www.google.com/calendar/event?eid=Mmw2bzZwbGZlaDNmOGF2dTQ4dTNrbTQ4N2lfMjAyMjEyMTJUMDAwMDAwWiBmYW1pbHkxNzAxODE2MzYzNzQxODEyMjk2NUBn",
+        "created": "2022-08-29T18:29:01.000Z",
+        "updated": "2022-12-03T06:51:07.881Z",
+        "summary": "First Lego League - bring ipads",
+        "creator": {
+            "email": "lani.ludwick@gmail.com"
+        },
+        "organizer": {
+            "email": "family17018163637418122965@group.calendar.google.com",
+            "displayName": "Family",
+            "self": true
+        },
+        "start": {
+            "dateTime": "2022-12-12T01:00:00Z",
+            "timeZone": "America/Los_Angeles"
+        },
+        "end": {
+            "dateTime": "2022-12-12T04:00:00Z",
+            "timeZone": "America/Los_Angeles"
+        },
+        "recurringEventId": "2l6o6plfeh3f8avu48u3km487i_R20220925T230000",
+        "originalStartTime": {
+            "dateTime": "2022-12-12T00:00:00Z",
+            "timeZone": "America/Los_Angeles"
+        },
+        "iCalUID": "2l6o6plfeh3f8avu48u3km487i_R20220925T230000@google.com",
+        "sequence": 1,
+        "reminders": {
+            "useDefault": true
+        },
+        "eventType": "default"
+    },
+    {
+        "kind": "calendar#event",
+        "etag": "\"3316253640394000\"",
+        "id": "n5fudjpahdkpc0h2h3q6vrh3ob_20221212T040000Z",
+        "status": "confirmed",
+        "htmlLink": "https://www.google.com/calendar/event?eid=bjVmdWRqcGFoZGtwYzBoMmgzcTZ2cmgzb2JfMjAyMjEyMTJUMDQwMDAwWiBmYW1pbHkxNzAxODE2MzYzNzQxODEyMjk2NUBn",
+        "created": "2022-06-06T15:31:09.000Z",
+        "updated": "2022-07-18T06:47:00.197Z",
+        "summary": "CTY test",
+        "creator": {
+            "email": "lani.ludwick@gmail.com"
+        },
+        "organizer": {
+            "email": "family17018163637418122965@group.calendar.google.com",
+            "displayName": "Family",
+            "self": true
+        },
+        "start": {
+            "dateTime": "2022-12-12T04:00:00Z",
+            "timeZone": "America/Los_Angeles"
+        },
+        "end": {
+            "dateTime": "2022-12-12T05:00:00Z",
+            "timeZone": "America/Los_Angeles"
+        },
+        "recurringEventId": "n5fudjpahdkpc0h2h3q6vrh3ob",
+        "originalStartTime": {
+            "dateTime": "2022-12-12T04:00:00Z",
+            "timeZone": "America/Los_Angeles"
+        },
+        "iCalUID": "n5fudjpahdkpc0h2h3q6vrh3ob@google.com",
+        "sequence": 1,
+        "reminders": {
+            "useDefault": true
+        },
+        "eventType": "default"
+    },
+    {
+        "kind": "calendar#event",
+        "etag": "\"3328616035020000\"",
+        "id": "52kl1e990qm53jo3cp57a2sfue_20221212T140000Z",
+        "status": "confirmed",
+        "htmlLink": "https://www.google.com/calendar/event?eid=NTJrbDFlOTkwcW01M2pvM2NwNTdhMnNmdWVfMjAyMjEyMTJUMTQwMDAwWiBmYW1pbHkxNzAxODE2MzYzNzQxODEyMjk2NUBn",
+        "created": "2022-09-27T19:46:57.000Z",
+        "updated": "2022-09-27T19:46:57.510Z",
+        "summary": "Lincoln Clarinet",
+        "creator": {
+            "email": "lani.ludwick@gmail.com"
+        },
+        "organizer": {
+            "email": "family17018163637418122965@group.calendar.google.com",
+            "displayName": "Family",
+            "self": true
+        },
+        "start": {
+            "dateTime": "2022-12-12T14:00:00Z",
+            "timeZone": "America/Los_Angeles"
+        },
+        "end": {
+            "dateTime": "2022-12-12T15:00:00Z",
+            "timeZone": "America/Los_Angeles"
+        },
+        "recurringEventId": "52kl1e990qm53jo3cp57a2sfue",
+        "originalStartTime": {
+            "dateTime": "2022-12-12T14:00:00Z",
+            "timeZone": "America/Los_Angeles"
+        },
+        "iCalUID": "52kl1e990qm53jo3cp57a2sfue@google.com",
+        "sequence": 0,
+        "reminders": {
+            "useDefault": true
+        },
+        "eventType": "default"
+    },
+    {
+        "kind": "calendar#event",
+        "etag": "\"3330054982228000\"",
+        "id": "5aon30sb09aa6n321ge880hji2_20221212T230000Z",
+        "status": "confirmed",
+        "htmlLink": "https://www.google.com/calendar/event?eid=NWFvbjMwc2IwOWFhNm4zMjFnZTg4MGhqaTJfMjAyMjEyMTJUMjMwMDAwWiBmYW1pbHkxNzAxODE2MzYzNzQxODEyMjk2NUBn",
+        "created": "2022-08-12T05:16:03.000Z",
+        "updated": "2022-10-06T03:38:11.114Z",
+        "summary": "Alex - mckinley cooking 3:10-4:25 until 12/12 (Not 10/10, 11/7, 11/21)",
+        "description": "Lincoln Williams 442.00 442.00 442.00 442.00 0.00\nEnrollment Date: 08/11/2022\nEnrollment Status: Enrolled\nMeeting Details: This Class meets from 09/19/2022 to 12/12/2022 at 3:10 pm to 4:25 pm on M\nClass Location: McKinley\nSkip Days 10/10/2022, 11/07/2022, 11/21/2022",
+        "creator": {
+            "email": "lani.ludwick@gmail.com"
+        },
+        "organizer": {
+            "email": "family17018163637418122965@group.calendar.google.com",
+            "displayName": "Family",
+            "self": true
+        },
+        "start": {
+            "dateTime": "2022-12-12T23:00:00Z",
+            "timeZone": "America/Los_Angeles"
+        },
+        "end": {
+            "dateTime": "2022-12-13T00:30:00Z",
+            "timeZone": "America/Los_Angeles"
+        },
+        "recurringEventId": "5aon30sb09aa6n321ge880hji2_R20221010T220000",
+        "originalStartTime": {
+            "dateTime": "2022-12-12T23:00:00Z",
+            "timeZone": "America/Los_Angeles"
+        },
+        "iCalUID": "5aon30sb09aa6n321ge880hji2_R20221010T220000@google.com",
+        "sequence": 0,
+        "reminders": {
+            "useDefault": true
+        },
+        "eventType": "default"
+    }
+]

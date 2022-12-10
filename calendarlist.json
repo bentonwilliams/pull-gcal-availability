@@ -1,0 +1,415 @@
+{
+    "kind": "calendar#calendarList",
+    "etag": "\"p32k872felflvm0g\"",
+    "nextSyncToken": "CKiDie6r6_sCEhliZW50b24ud2lsbGlhbXNAZ21haWwuY29t",
+    "items": [
+        {
+            "kind": "calendar#calendarListEntry",
+            "etag": "\"1544210402326000\"",
+            "id": "q6h7rj8mdv5e1k3r5giboj6glfspeo61@import.calendar.google.com",
+            "summary": "Benton J Williams (TripIt)",
+            "description": "TripIt Calendar",
+            "timeZone": "UTC",
+            "colorId": "9",
+            "backgroundColor": "#7bd148",
+            "foregroundColor": "#000000",
+            "selected": true,
+            "accessRole": "reader",
+            "defaultReminders": [],
+            "conferenceProperties": {
+                "allowedConferenceSolutionTypes": [
+                    "hangoutsMeet"
+                ]
+            }
+        },
+        {
+            "kind": "calendar#calendarListEntry",
+            "etag": "\"1621185862913000\"",
+            "id": "0ok6agkssavj0sdt0ao1fjeuumefh79d@import.calendar.google.com",
+            "summary": "BYBA 8U Team 2A",
+            "description": "The event schedule for the BYBA 8U Team 2A Baseball team",
+            "timeZone": "America/Los_Angeles",
+            "summaryOverride": "Chihuahuas (spring 2021 linky baseball)",
+            "colorId": "10",
+            "backgroundColor": "#b3dc6c",
+            "foregroundColor": "#000000",
+            "accessRole": "reader",
+            "defaultReminders": [],
+            "conferenceProperties": {
+                "allowedConferenceSolutionTypes": [
+                    "hangoutsMeet"
+                ]
+            }
+        },
+        {
+            "kind": "calendar#calendarListEntry",
+            "etag": "\"1629786584946000\"",
+            "id": "libho993ebjnltgo65qjaahlfof9bpba@import.calendar.google.com",
+            "summary": "2021 Burlingame Blue (8U)",
+            "description": "The event schedule for the 2021 Burlingame Blue (8U) Baseball team",
+            "timeZone": "America/Los_Angeles",
+            "colorId": "6",
+            "backgroundColor": "#ffad46",
+            "foregroundColor": "#000000",
+            "accessRole": "reader",
+            "defaultReminders": [],
+            "conferenceProperties": {
+                "allowedConferenceSolutionTypes": [
+                    "hangoutsMeet"
+                ]
+            }
+        },
+        {
+            "kind": "calendar#calendarListEntry",
+            "etag": "\"1629786586696000\"",
+            "id": "clq6dprfkcjp640f82g38kdq9uduqnfj@import.calendar.google.com",
+            "summary": "8U Boys - Spring 2021",
+            "description": "The event schedule for the 8U Boys - Spring 2021 Lacrosse team",
+            "timeZone": "America/Los_Angeles",
+            "colorId": "1",
+            "backgroundColor": "#ac725e",
+            "foregroundColor": "#000000",
+            "accessRole": "reader",
+            "defaultReminders": [],
+            "conferenceProperties": {
+                "allowedConferenceSolutionTypes": [
+                    "hangoutsMeet"
+                ]
+            }
+        },
+        {
+            "kind": "calendar#calendarListEntry",
+            "etag": "\"1631508601893000\"",
+            "id": "lani.ludwick@gmail.com",
+            "summary": "lani.ludwick@gmail.com",
+            "timeZone": "America/Los_Angeles",
+            "colorId": "8",
+            "backgroundColor": "#16a765",
+            "foregroundColor": "#000000",
+            "accessRole": "reader",
+            "defaultReminders": [],
+            "conferenceProperties": {
+                "allowedConferenceSolutionTypes": [
+                    "hangoutsMeet"
+                ]
+            }
+        },
+        {
+            "kind": "calendar#calendarListEntry",
+            "etag": "\"1646074702381000\"",
+            "id": "d0aanhijpclk2fjn7i480d8mbg9f0t73@import.calendar.google.com",
+            "summary": "Red Sox Calendar",
+            "timeZone": "UTC",
+            "colorId": "18",
+            "backgroundColor": "#b99aff",
+            "foregroundColor": "#000000",
+            "accessRole": "reader",
+            "defaultReminders": [],
+            "conferenceProperties": {
+                "allowedConferenceSolutionTypes": [
+                    "hangoutsMeet"
+                ]
+            }
+        },
+        {
+            "kind": "calendar#calendarListEntry",
+            "etag": "\"1647233493231000\"",
+            "id": "5fltg6bi8kg6bs2v2nsdhs27fmk3g4ct@import.calendar.google.com",
+            "summary": "N/a [NOT A TEAM]",
+            "description": "The event schedule for the N/a [NOT A TEAM] Lacrosse team",
+            "timeZone": "America/Los_Angeles",
+            "colorId": "7",
+            "backgroundColor": "#42d692",
+            "foregroundColor": "#000000",
+            "accessRole": "reader",
+            "defaultReminders": [],
+            "conferenceProperties": {
+                "allowedConferenceSolutionTypes": [
+                    "hangoutsMeet"
+                ]
+            }
+        },
+        {
+            "kind": "calendar#calendarListEntry",
+            "etag": "\"1651420404627000\"",
+            "id": "c7q3s4icdn32nik6so7hqtng09ini561@import.calendar.google.com",
+            "summary": "2022 Burlingame SOX",
+            "description": "The event schedule for the 2022 Burlingame SOX Baseball team",
+            "timeZone": "America/Los_Angeles",
+            "colorId": "6",
+            "backgroundColor": "#ffad46",
+            "foregroundColor": "#000000",
+            "selected": true,
+            "accessRole": "reader",
+            "defaultReminders": [],
+            "conferenceProperties": {
+                "allowedConferenceSolutionTypes": [
+                    "hangoutsMeet"
+                ]
+            }
+        },
+        {
+            "kind": "calendar#calendarListEntry",
+            "etag": "\"1662749526071000\"",
+            "id": "nlm63c5bq1esto870d60ts2l7941p557@import.calendar.google.com",
+            "summary": "Coyotes Boys 10U B White",
+            "description": "The event schedule for the Coyotes Boys 10U B White Lacrosse team",
+            "timeZone": "America/Los_Angeles",
+            "colorId": "15",
+            "backgroundColor": "#9fc6e7",
+            "foregroundColor": "#000000",
+            "accessRole": "reader",
+            "defaultReminders": [],
+            "conferenceProperties": {
+                "allowedConferenceSolutionTypes": [
+                    "hangoutsMeet"
+                ]
+            }
+        },
+        {
+            "kind": "calendar#calendarListEntry",
+            "etag": "\"1662749527430000\"",
+            "id": "jd8g00flb7l9bj4fiepj7rb6v9gh0lag@import.calendar.google.com",
+            "summary": "BlueClaws",
+            "description": "The event schedule for the BlueClaws Baseball team",
+            "timeZone": "America/Los_Angeles",
+            "colorId": "3",
+            "backgroundColor": "#f83a22",
+            "foregroundColor": "#000000",
+            "accessRole": "reader",
+            "defaultReminders": [],
+            "conferenceProperties": {
+                "allowedConferenceSolutionTypes": [
+                    "hangoutsMeet"
+                ]
+            }
+        },
+        {
+            "kind": "calendar#calendarListEntry",
+            "etag": "\"1662749530050000\"",
+            "id": "tsssd7ah4agqau86fj2ec1pqu8r7u6ht@import.calendar.google.com",
+            "summary": "Blaze (10U summer)",
+            "description": "The event schedule for the Blaze (10U summer) Softball team",
+            "timeZone": "America/Los_Angeles",
+            "colorId": "24",
+            "backgroundColor": "#a47ae2",
+            "foregroundColor": "#000000",
+            "accessRole": "reader",
+            "defaultReminders": [],
+            "conferenceProperties": {
+                "allowedConferenceSolutionTypes": [
+                    "hangoutsMeet"
+                ]
+            }
+        },
+        {
+            "kind": "calendar#calendarListEntry",
+            "etag": "\"1662749531274000\"",
+            "id": "1hgh9gstmgv93b5n3hgi5fp56sktrjkr@import.calendar.google.com",
+            "summary": "Coyotes Boys U8",
+            "description": "The event schedule for the Coyotes Boys U8 Lacrosse team",
+            "timeZone": "America/Los_Angeles",
+            "colorId": "22",
+            "backgroundColor": "#f691b2",
+            "foregroundColor": "#000000",
+            "accessRole": "reader",
+            "defaultReminders": [],
+            "conferenceProperties": {
+                "allowedConferenceSolutionTypes": [
+                    "hangoutsMeet"
+                ]
+            }
+        },
+        {
+            "kind": "calendar#calendarListEntry",
+            "etag": "\"1662749532091000\"",
+            "id": "qpo25a8ct8sj06gb9fdj2ngsq4cc1ves@import.calendar.google.com",
+            "summary": "Flying squirrels - BYBA 10U",
+            "description": "The event schedule for the Flying squirrels - BYBA 10U Baseball team",
+            "timeZone": "America/Los_Angeles",
+            "colorId": "5",
+            "backgroundColor": "#ff7537",
+            "foregroundColor": "#000000",
+            "accessRole": "reader",
+            "defaultReminders": [],
+            "conferenceProperties": {
+                "allowedConferenceSolutionTypes": [
+                    "hangoutsMeet"
+                ]
+            }
+        },
+        {
+            "kind": "calendar#calendarListEntry",
+            "etag": "\"1662749533673000\"",
+            "id": "jh42g79s267k1rt4tgl5jqr4lou9u25r@import.calendar.google.com",
+            "summary": "Shamrocks 10U - Spring 2022",
+            "description": "The event schedule for the Shamrocks 10U - Spring 2022 Softball team",
+            "timeZone": "America/Los_Angeles",
+            "colorId": "11",
+            "backgroundColor": "#fbe983",
+            "foregroundColor": "#000000",
+            "accessRole": "reader",
+            "defaultReminders": [],
+            "conferenceProperties": {
+                "allowedConferenceSolutionTypes": [
+                    "hangoutsMeet"
+                ]
+            }
+        },
+        {
+            "kind": "calendar#calendarListEntry",
+            "etag": "\"1662749546408000\"",
+            "id": "v769gg0bpe7tve96i7gt0jnbsenedql8@import.calendar.google.com",
+            "summary": "BGS 12U Dauntless",
+            "description": "The event schedule for the BGS 12U Dauntless Softball team",
+            "timeZone": "America/Los_Angeles",
+            "colorId": "7",
+            "backgroundColor": "#42d692",
+            "foregroundColor": "#000000",
+            "selected": true,
+            "accessRole": "reader",
+            "defaultReminders": [],
+            "conferenceProperties": {
+                "allowedConferenceSolutionTypes": [
+                    "hangoutsMeet"
+                ]
+            }
+        },
+        {
+            "kind": "calendar#calendarListEntry",
+            "etag": "\"1664636863238000\"",
+            "id": "en.usa#holiday@group.v.calendar.google.com",
+            "summary": "Holidays in United States",
+            "description": "Holidays and Observances in United States",
+            "timeZone": "America/Los_Angeles",
+            "colorId": "7",
+            "backgroundColor": "#42d692",
+            "foregroundColor": "#000000",
+            "selected": true,
+            "accessRole": "reader",
+            "defaultReminders": [],
+            "conferenceProperties": {
+                "allowedConferenceSolutionTypes": [
+                    "hangoutsMeet"
+                ]
+            }
+        },
+        {
+            "kind": "calendar#calendarListEntry",
+            "etag": "\"1666218558393000\"",
+            "id": "sp2l49i5hihii81hoa4c0eg6c1qmpiec@import.calendar.google.com",
+            "summary": "2022 Washington Flag Football",
+            "description": "The event schedule for the 2022 Washington Flag Football Football team",
+            "timeZone": "America/Los_Angeles",
+            "colorId": "17",
+            "backgroundColor": "#9a9cff",
+            "foregroundColor": "#000000",
+            "selected": true,
+            "accessRole": "reader",
+            "defaultReminders": [],
+            "conferenceProperties": {
+                "allowedConferenceSolutionTypes": [
+                    "hangoutsMeet"
+                ]
+            }
+        },
+        {
+            "kind": "calendar#calendarListEntry",
+            "etag": "\"1667928716424000\"",
+            "id": "5lc8qbafenmdq4s2mj3quf7u543h8psf@import.calendar.google.com",
+            "summary": "San Mateo Little League American Events",
+            "description": "Events with tag(s): Cal Tincaps",
+            "timeZone": "America/Los_Angeles",
+            "colorId": "19",
+            "backgroundColor": "#c2c2c2",
+            "foregroundColor": "#000000",
+            "selected": true,
+            "accessRole": "reader",
+            "defaultReminders": [],
+            "conferenceProperties": {
+                "allowedConferenceSolutionTypes": [
+                    "hangoutsMeet"
+                ]
+            }
+        },
+        {
+            "kind": "calendar#calendarListEntry",
+            "etag": "\"1670347155708000\"",
+            "id": "family17018163637418122965@group.calendar.google.com",
+            "summary": "Family",
+            "timeZone": "UTC",
+            "colorId": "22",
+            "backgroundColor": "#f691b2",
+            "foregroundColor": "#000000",
+            "selected": true,
+            "accessRole": "writer",
+            "defaultReminders": [
+                {
+                    "method": "popup",
+                    "minutes": 10
+                }
+            ],
+            "conferenceProperties": {
+                "allowedConferenceSolutionTypes": [
+                    "hangoutsMeet"
+                ]
+            }
+        },
+        {
+            "kind": "calendar#calendarListEntry",
+            "etag": "\"1670547892770000\"",
+            "id": "qa1aplpv8upbdu2eql7t4dbnms@group.calendar.google.com",
+            "summary": "Au pair calendar ",
+            "timeZone": "America/Los_Angeles",
+            "colorId": "23",
+            "backgroundColor": "#cd74e6",
+            "foregroundColor": "#000000",
+            "accessRole": "owner",
+            "defaultReminders": [],
+            "conferenceProperties": {
+                "allowedConferenceSolutionTypes": [
+                    "hangoutsMeet"
+                ]
+            }
+        },
+        {
+            "kind": "calendar#calendarListEntry",
+            "etag": "\"1670547893273000\"",
+            "id": "benton.williams@gmail.com",
+            "summary": "benton.williams@gmail.com",
+            "timeZone": "America/Los_Angeles",
+            "colorId": "3",
+            "backgroundColor": "#f83a22",
+            "foregroundColor": "#000000",
+            "accessRole": "owner",
+            "defaultReminders": [
+                {
+                    "method": "popup",
+                    "minutes": 10
+                }
+            ],
+            "notificationSettings": {
+                "notifications": [
+                    {
+                        "type": "eventCreation",
+                        "method": "email"
+                    },
+                    {
+                        "type": "eventChange",
+                        "method": "email"
+                    },
+                    {
+                        "type": "eventCancellation",
+                        "method": "email"
+                    }
+                ]
+            },
+            "primary": true,
+            "conferenceProperties": {
+                "allowedConferenceSolutionTypes": [
+                    "hangoutsMeet"
+                ]
+            }
+        }
+    ]
+}

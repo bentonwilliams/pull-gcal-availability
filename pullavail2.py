@@ -9,7 +9,7 @@ import json
 work_start_time = dt.time(hour=9, minute=0)
 work_end_time = dt.time(hour=15, minute=0)
 excluded_weekdays=[] #["Sat","Sun"]False
-numberofdaysout=7
+numberofdaysout=2
 using_family_calendar=True #note, the "famly" calendar is screwed up and set for UTC, I timeshift all events -8 hours in the code below
 
 # Setup the Calendar API
@@ -73,6 +73,71 @@ def pullevents():
     
     return events
 
+def createeventlist(events):
+    #correction to account for screwed up family calendar
+    correction=dt.timedelta(days=0)
+    if using_family_calendar: correction=dt.timedelta(hours=-8)
+
+    #take the json of events data
+    #create a list of lists where the elements are [eventstart-datetime, eventend-datetime]
+    eventlist=[]
+    for event in events:
+        ts_start=event['start'].get('dateTime').replace("Z","") #starting timestamp, remove the z if not tz offset
+        start=dt.datetime.fromisoformat(ts_start)+correction
+        ts_end=event['end'].get('dateTime').replace("Z","") #starting timestamp, remove the z if not tz offset
+        end=dt.datetime.fromisoformat(ts_end)+correction
+        eventlist.append([start,end])
+        print (f'{start.strftime("%m/%d T %X")} to {end.strftime("%m/%d T %X")}') 
+    
+    return eventlist
+
+def bookedevents(events):
+    def mergeevents(a,b):
+        if (a[1]>=b[0] and a[1] <= b[1]) or a[0]>=b[0] and a[0]<=b[1] or b[0]>=a[0] and b[0]<=a[1] or b[1]>=a[0] and b[1]<=a[1]:
+            return [min(a[0],b[0]),max(a[1],b[1])],None
+        else:
+            return a,b
+
+    ans=[events[0]]
+    for i in range(1,len(events)):
+        a,b=mergeevents(ans[-1],events[i])
+        #print(a,b)
+        if b==None: 
+            ans[-1]=a
+        else: 
+            ans.append(b)
+    for x in ans:
+        print(f'{x[0].month}/{x[0].day}T{x[0].hour}:{x[0].minute}',end="  -  ")
+        print(f'{x[1].month}/{x[1].day}T{x[1].hour}:{x[1].minute}')
+    return ans
+
+def sortblocksbydate(eventlist):
+    calendar={}
+    for eventblock in eventlist:
+        curday=eventblock[0].replace(hour=0,minute=0)
+        calendar[curday]=calendar.get(curday,[])+([[eventblock[0],eventblock[1]]])
+    # for day in calendar:
+    #     print (day, calendar[day])
+    return calendar
+
+def printopenblocks(calendar):
+    days=[days for days in calendar]
+    days.sort()
+    for day in days:
+        print(day.strftime("%m-%d %a : "),end="")
+        #set beginning of the day
+        s=day 
+        for i in range(0,len(calendar[day])):
+            #end = beginning of first block
+            e=calendar[day][i][0]
+            if s<e: print(f'{s.hour}:{s.minute}-{e.hour}:{e.minute}, ',end="")
+            s=calendar[day][i][1]
+        e=day+dt.timedelta(days=1)
+        print(f'{s.hour}:{s.minute}-{e.hour}:{e.minute}')
+             
+
+
+
 def clipblocks(openblocks):
     clippedopenblocks=[]
     h_0=work_start_time.hour
@@ -97,43 +162,6 @@ def clipblocks(openblocks):
 # def correcttimezone(timestamp):
 #     for event in events:
 
-
-
-def findopenblocks(events):
-    ts=events[0]['start'].get('dateTime',events[0].get('date')).replace("Z","")
-    end=dt.datetime.fromisoformat(ts)
-    
-    # if calendar is the family calendar, add a negative 8hour timedelta
-    if using_family_calendar: end=end+dt.timedelta(hours=-8)
-    
-    end=end.replace(hour=0,minute=0)
-    openblocks,bookedblocks=[],[]
-    for event in events:
-        ts=event['start'].get('dateTime', event['start'].get('date')).replace("Z","")
-        start= dt.datetime.fromisoformat(ts)
-        
-        #adjusting for screwed up family calendar
-        if using_family_calendar: start=start+dt.timedelta(hours=-8)
-        
-        if start>end:  
-            openblocks.append((end,start))
-        ts=event['end'].get('dateTime').replace("Z","")    
-        end = dt.datetime.fromisoformat(ts)
-        if using_family_calendar: end=end+dt.timedelta(hours=-8)
-        bookedblocks.append((start,end))
-    last=start.replace(day=start.day+1,hour=0,minute=0,second=0)
-    if last>end: openblocks.append((end,last))
-    openblocks=clipblocks(openblocks)
-    #print(openblocks)
-    print("printing booked blocks:")
-    for i in range(0,len(bookedblocks)):
-         print(bookedblocks[i][0].strftime("%m/%d T %X"),end=" -")
-         print(bookedblocks[i][1].strftime("%m/%d T %X"))
-    print("Printing open blocks")
-    for i in range(0,len(openblocks)):
-        print(openblocks[i][0].strftime("%m/%d T %X"),end=" -")
-        print(openblocks[i][1].strftime("%m/%d T %X"))
-    return openblocks
 
 def printblocks(openblocks):
     day1=openblocks[0][0]
@@ -177,10 +205,10 @@ def printblocks(openblocks):
             
 def main():
     events=pullevents()
-    #with open("calevents.json","r") as f:
-    #    events=json.load(f)
-    openblocks=findopenblocks(events)
-    printblocks(openblocks)
+    eventlist=createeventlist(events)
+    consoldatedevents=bookedevents(eventlist)
+    caldict=sortblocksbydate(consoldatedevents)
+    printopenblocks(caldict)
 
 
 main()
